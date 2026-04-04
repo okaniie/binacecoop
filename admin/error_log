@@ -1,0 +1,122 @@
+[18-Sep-2025 18:32:50 UTC] PHP Notice:  Undefined index: email in /home/dualedgecapital/public_html/admin/addpackages.php on line 88
+[18-Sep-2025 18:32:58 UTC] PHP Notice:  Undefined index: email in /home/dualedgecapital/public_html/admin/addpackages.php on line 88
+[18-Sep-2025 18:33:18 UTC] PHP Notice:  Undefined index: email in /home/dualedgecapital/public_html/admin/addpackages.php on line 88
+[18-Sep-2025 18:36:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 18:36:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 18:36:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 18:36:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:10:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:10:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:10:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:10:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:19:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:19:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:19:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:19:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:19:26 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:19:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:19:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:19:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:19:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:19:30 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:19:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:19:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:19:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:19:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:19:34 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:19:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:19:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:19:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:19:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:19:38 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:19:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:19:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:19:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:19:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:19:44 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:19:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:19:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:19:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:19:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:19:48 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:19:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:19:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:19:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:19:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:19:52 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:19:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:19:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:19:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:19:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:19:57 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:19:57 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:19:57 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:19:57 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:19:57 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:04 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:20:05 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:05 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:05 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:05 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:08 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:20:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:30 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:20:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:20:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:21:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:21:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:21:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:21:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:21:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:21:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:21:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:21:22 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:21:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:21:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:21:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:21:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:21:57 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:21:57 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:21:57 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:21:57 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 102
+[18-Sep-2025 19:21:57 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/dualedgecapital/public_html/admin/deposits.php on line 103
+[18-Sep-2025 19:25:02 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:26:14 UTC] PHP Notice:  Undefined index: email in /home/dualedgecapital/public_html/admin/addpackages.php on line 88
+[18-Sep-2025 19:28:30 UTC] PHP Notice:  Undefined index: email in /home/dualedgecapital/public_html/admin/addpackages.php on line 88
+[18-Sep-2025 19:31:57 UTC] PHP Notice:  Undefined index: email in /home/dualedgecapital/public_html/admin/addpackages.php on line 88

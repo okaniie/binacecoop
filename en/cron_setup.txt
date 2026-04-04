@@ -1,0 +1,3 @@
+php -q /home/firsxmje/tradersindex.co/cron.php 
+
+/opt/alt/php73/usr/bin/php -q /home/elitecr1/public_html/en/cron.php

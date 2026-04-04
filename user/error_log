@@ -1,0 +1,24 @@
+[18-Sep-2025 19:11:07 UTC] PHP Notice:  Undefined variable: currency in /home/dualedgecapital/public_html/user/header.php on line 194
+[18-Sep-2025 19:11:07 UTC] PHP Notice:  Undefined variable: balance in /home/dualedgecapital/public_html/user/header.php on line 194
+[18-Sep-2025 19:11:07 UTC] PHP Notice:  Undefined variable: fname in /home/dualedgecapital/public_html/user/header.php on line 201
+[18-Sep-2025 19:11:07 UTC] PHP Notice:  Undefined variable: fname in /home/dualedgecapital/public_html/user/signalpay.php on line 75
+[18-Sep-2025 19:11:07 UTC] PHP Notice:  Undefined variable: email in /home/dualedgecapital/public_html/user/signalpay.php on line 78
+[18-Sep-2025 19:11:07 UTC] PHP Notice:  Undefined variable: currency in /home/dualedgecapital/public_html/user/signalpay.php on line 146
+[18-Sep-2025 19:18:54 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:18:55 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:18:57 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:18:58 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:18:58 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:18:59 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:19:00 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:19:00 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:19:01 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:19:02 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:21:35 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:23:27 UTC] PHP Notice:  Undefined index: payment_mode in /home/dualedgecapital/public_html/user/withdraw.php on line 89
+[18-Sep-2025 19:24:45 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
+[18-Sep-2025 19:24:49 UTC] PHP Notice:  Undefined index: payment_mode in /home/dualedgecapital/public_html/user/withdraw.php on line 89
+[18-Sep-2025 19:25:07 UTC] PHP Notice:  Undefined index: payment_mode in /home/dualedgecapital/public_html/user/withdraw.php on line 89
+[18-Sep-2025 19:25:35 UTC] PHP Notice:  Undefined index: payment_mode in /home/dualedgecapital/public_html/user/withdraw.php on line 89
+[18-Sep-2025 19:30:24 UTC] PHP Notice:  Undefined index: payment_mode in /home/dualedgecapital/public_html/user/withdraw.php on line 89
+[18-Sep-2025 19:32:43 UTC] PHP Deprecated:  filter_var(): explicit use of FILTER_FLAG_SCHEME_REQUIRED and FILTER_FLAG_HOST_REQUIRED is deprecated in /home/dualedgecapital/public_html/PHPMailer/PHPMailer.php on line 3631
