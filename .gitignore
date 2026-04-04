@@ -1,0 +1,19 @@
+# Ignore large archives
+*.zip
+*.rar
+*.tar.gz
+
+# Ignore backup files
+*.bak
+*.old
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Docker data (handled by Aiven now)
+db_data/
+mysql/
+
+# Ignore sensitive local configs
+.env
