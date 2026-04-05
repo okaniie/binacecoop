@@ -11,4 +11,10 @@ RUN sed -i 's/AllowOverride None/AllowOverride All/g' /etc/apache2/apache2.conf
 
 WORKDIR /var/www/html
 
+# Copy project files into the container
+COPY . /var/www/html/
+
+# Set correct permissions for Apache user
+RUN chown -R www-data:www-data /var/www/html
+
 EXPOSE 80
