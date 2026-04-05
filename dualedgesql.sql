@@ -1,32 +1,18 @@
--- Binance Coop - Docker Init SQL
--- Auto-imported on first container start
-
+-- CLEAN IMPORT FOR AIVEN
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
-SET time_zone = "+00:00";
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
--- --------------------------------------------------------
--- Table: admin
--- --------------------------------------------------------
+-- 1. admin
 CREATE TABLE IF NOT EXISTS `admin` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci AUTO_INCREMENT=2;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-INSERT INTO `admin` (`id`, `name`, `email`, `password`) VALUES
-(1, 'Admin Admin', 'admin@mail.com', '123456');
+INSERT INTO `admin` (`id`, `name`, `email`, `password`) VALUES (1, 'Admin Admin', 'admin@mail.com', '123456');
 
--- --------------------------------------------------------
--- Table: deposits
--- --------------------------------------------------------
+-- 2. deposits
 CREATE TABLE IF NOT EXISTS `deposits` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `method` varchar(255) NOT NULL,
@@ -37,15 +23,9 @@ CREATE TABLE IF NOT EXISTS `deposits` (
   `status` varchar(255) NOT NULL,
   `date` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci AUTO_INCREMENT=3;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-INSERT INTO `deposits` (`id`, `method`, `userId`, `tranxId`, `amount`, `currency`, `status`, `date`) VALUES
-(1, 'Ethereum', '4', 'TRX4602847', '22222', '$', 'PENDING', '02-01-2024 08:11'),
-(2, 'Ethereum', '4', 'TRX4251098', '3000.00', '$', 'PENDING', '02-01-2024 08:28');
-
--- --------------------------------------------------------
--- Table: investments
--- --------------------------------------------------------
+-- 3. investments
 CREATE TABLE IF NOT EXISTS `investments` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `userId` varchar(255) NOT NULL,
@@ -58,18 +38,11 @@ CREATE TABLE IF NOT EXISTS `investments` (
   `start_date` varchar(255) NOT NULL,
   `end_date` varchar(255) NOT NULL,
   `status` enum('1','0') NOT NULL,
-  `date` datetime NOT NULL DEFAULT current_timestamp(),
+  `date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci AUTO_INCREMENT=4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-INSERT INTO `investments` (`id`, `userId`, `planId`, `invest_amt`, `plan_name`, `increase`, `duration`, `total_profit`, `start_date`, `end_date`, `status`, `date`) VALUES
-(1, '4', '17', '50', 'PLAN A', '5', '24', '2.5', '02-01-2024 08:10:15', '03-01-2024 08:10:15', '1', '2024-01-02 08:10:15'),
-(2, '4', '23', '20000', 'VIP PLAN C', '60', '72', '12000', '02-01-2024 08:25:28', '05-01-2024 08:25:28', '1', '2024-01-02 08:25:28'),
-(3, '4', '19', '1500', 'PLAN C', '15', '24', '225', '02-01-2024 09:11:23', '03-01-2024 09:11:23', '1', '2024-01-02 09:11:23');
-
--- --------------------------------------------------------
--- Table: package1
--- --------------------------------------------------------
+-- 4. package1
 CREATE TABLE IF NOT EXISTS `package1` (
   `id` int(6) NOT NULL AUTO_INCREMENT,
   `pname` varchar(122) NOT NULL,
@@ -78,7 +51,7 @@ CREATE TABLE IF NOT EXISTS `package1` (
   `min_amt` varchar(255) NOT NULL,
   `max_amt` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci AUTO_INCREMENT=24;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
 
 INSERT INTO `package1` (`id`, `pname`, `increase`, `duration`, `min_amt`, `max_amt`) VALUES
 (17, 'PLAN A', 5, 24, '50', '500'),
@@ -89,9 +62,7 @@ INSERT INTO `package1` (`id`, `pname`, `increase`, `duration`, `min_amt`, `max_a
 (22, 'VIP PLAN B', 60, 48, '8000', '20000'),
 (23, 'VIP PLAN C', 60, 72, '20000', 'Unlimited');
 
--- --------------------------------------------------------
--- Table: settings
--- --------------------------------------------------------
+-- 5. settings
 CREATE TABLE IF NOT EXISTS `settings` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `sitename` varchar(255) NOT NULL,
@@ -111,14 +82,12 @@ CREATE TABLE IF NOT EXISTS `settings` (
   `swift` varchar(255) DEFAULT NULL,
   `routing` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci AUTO_INCREMENT=2;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 INSERT INTO `settings` (`id`, `sitename`, `siteurl`, `sitemail`, `ref_bonus`, `bwallet`, `btc_wallet`, `eth_wallet`, `whatsapp`, `livechat`, `pin`, `tmv`, `bank_name`, `account_name`, `account_num`, `swift`, `routing`) VALUES
-(1, 'Binance Coop', 'http://localhost:8080', 'support@binancecoop.com', '10', '', '', '', '', NULL, '', '', NULL, NULL, NULL, NULL, NULL);
+(1, 'Binance Coop', 'https://binancecoop-site.onrender.com', 'binancecoop66@gmail.com', '10', '', '', '', '', NULL, '', '', NULL, NULL, NULL, NULL, NULL);
 
--- --------------------------------------------------------
--- Table: users
--- --------------------------------------------------------
+-- 6. users
 CREATE TABLE IF NOT EXISTS `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `email` varchar(255) NOT NULL,
@@ -138,35 +107,25 @@ CREATE TABLE IF NOT EXISTS `users` (
   `profile_photo` varchar(255) DEFAULT NULL,
   `pin` varchar(255) DEFAULT NULL,
   `referral` varchar(255) DEFAULT NULL,
-  `date` datetime NOT NULL DEFAULT current_timestamp(),
+  `date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `status` varchar(255) NOT NULL DEFAULT 'Pending',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci AUTO_INCREMENT=31;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-INSERT INTO `users` (`id`, `email`, `fname`, `lname`, `password`, `currency`, `phone`, `country`, `occupation`, `refcode`, `ref_balance`, `profit`, `balance`, `bonus`, `Id_photo`, `profile_photo`, `pin`, `referral`, `date`, `status`) VALUES
-(4, 'user@mail.com', 'user', 'test', '123456', '$', NULL, NULL, NULL, 'WOUCX7', '0', '2345', '1912', '0', NULL, NULL, NULL, '', '2023-12-06 02:10:46', 'Pending');
-
--- --------------------------------------------------------
--- Table: wallet
--- --------------------------------------------------------
+-- 7. wallet
 CREATE TABLE IF NOT EXISTS `wallet` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
   `address` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci AUTO_INCREMENT=7;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 INSERT INTO `wallet` (`id`, `name`, `address`) VALUES
-(1, 'Bitcoin', 'btbtbbtbtbtbbtbtbbtbt'),
-(2, 'Ethereum', 'ehehhehehehhehehehhe'),
-(3, 'USDT (TRC20)', 'ususususuusuusu'),
-(4, 'Litecoin', 'ltltltltlltltltlltltl'),
-(5, 'BNB Smart Chain', 'bnbnbnnbnbnnbnbnbnbnbnnbbn'),
-(6, 'Tron', 'trtttrttrtttrttrtttrt');
+(1, 'Bitcoin', 'YOUR_BTC_ADDRESS'),
+(2, 'Ethereum', 'YOUR_ETH_ADDRESS'),
+(3, 'USDT (TRC20)', 'YOUR_USDT_ADDRESS');
 
--- --------------------------------------------------------
--- Table: withdrawals
--- --------------------------------------------------------
+-- 8. withdrawals
 CREATE TABLE IF NOT EXISTS `withdrawals` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `userId` varchar(255) NOT NULL,
@@ -187,8 +146,3 @@ CREATE TABLE IF NOT EXISTS `withdrawals` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

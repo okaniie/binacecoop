@@ -56,24 +56,25 @@ $sql1= "SELECT * FROM deposits ";
 
 	$sql_qry1="SELECT SUM(amount) AS count FROM withdrawals ";
 
-$duration1 = $link->query($sql_qry1);
-while($record1 = $duration1->fetch_array()){
-    $withdraw = $record1['count'];
-	}
+if($duration1 = $link->query($sql_qry1)){
+    $record1 = $duration1->fetch_array();
+    $withdraw = $record1['count'] ? $record1['count'] : 0;
+} else {
+    $withdraw = 0;
+}
 	
 	
 	
 ////////
 
-	$sql_qry="SELECT SUM(usd) AS counter FROM deposits ";
+	$sql_qry = "SELECT SUM(amount) AS counter FROM deposits";
 
 if($duration = $link->query($sql_qry)){
-while($record = $duration->fetch_array()){
-    $deposit = $record['counter'];
-	}
-}else{
-				$deposit = 0  ;
-			  }
+    $record = $duration->fetch_array();
+    $deposit = $record['counter'] ? $record['counter'] : 0;
+} else {
+    $deposit = 0;
+}
 	
 	
 ?>
